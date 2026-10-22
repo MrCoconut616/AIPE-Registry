@@ -34,4 +34,4 @@ validation:
     - Core and Engineering State version identifiers are recognized; Registry does not transform engineering states.
     - Staging snapshots may precede upstream merge; inspect sources/snapshots.lock.json before deployment.
     - Snapshot-only checks cannot verify repository-relative documentation existence; use --checkouts for that audit.
-documentation: [README.md, CONTRIBUTING.md]
+documentation: [README.md, CONTRIBUTING.md, docs/development.md, docs/manifest-authoring.md]
